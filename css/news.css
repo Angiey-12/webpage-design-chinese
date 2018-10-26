@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('../images/42.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+
+}
+.btn_1{
+    text-align: center;
+}
+.navbar-brand{
+    color: white;
+}
+
+.whiteColor{
+    color: white !important;
+}
+.newslist img{
+    width: 100%;
+    height: 200px;
+    
+}
+.container{
+    width: 80%;
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+
+.white_content{
+    display: none;
+    position: absolute;
+    overflow:hidden;
+    border:1px solid gray;
+    background-color: white;
+    top: 100px; 
+    left: 15%; 
+    width: 70%; 
+    height: 100%; 
+    padding: 50px; 
+    z-index:1002; 
+}
+
+.white_content img{
+    margin-left:11%;
+    width: 80%;
+    height: 50%;
+}
+
+.textarea{
+    margin-top:20px;
+}
+.closetxt{
+    margin-top:50px;
+    text-align: right;
+}
+
+h3 a{
+    color:black;
+}
+
+#footer{
+    width: 100%;
+    margin-top:20px!important;
+}
+
+#footer .runoob-block{
+    background: black;
+    border-top:1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-bottom:50px; 
+}
+
+#footer .runoob-block .runoob{
+    width: 64%;
+    margin:0 auto;
+    min-height: 200px;
+}
+
+#footer .runoob dl{
+    width: 25%;
+    padding-left:30px;
+    color:grey;
+    margin:25px 0;
+    float:left;
+    
+    min-height:175px;
+}
+
+#footer .search-share{
+    /*width:25px;*/
+    float: left;
+    min-height:226px;
+    padding:20px 0 0 40px;
+}
+
+dt{
+    color:white;
+    font-size: 16px;
+    padding-bottom:10px;
+}
+
+dd{
+  font-size: 16px;
+}
